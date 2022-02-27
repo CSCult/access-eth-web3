@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessing Ethereum Blockchain using Web3.js</title>
+    <style>
+        body {
+            background-image: url("https://images.unsplash.com/photo-1639322537231-2f206e06af84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            font-family: "DM Serif Display", serif;
+            word-wrap: break-word;
+            margin: 2rem;
+        }
+
+        h1 {
+            font-weight: 700;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        p {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            font-size: 1.5rem;
+            margin: 0 auto;
+            padding: 1rem auto;
+            border: 1px solid black;
+            border-radius: 2px;
+            background-color: rgba(174, 0, 255, 0.4);
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .fields {
+            width: 20%;
+            display: inline-block;
+            margin: 80px;
+            margin-bottom: 40px;
+            margin-top: 40px;
+            text-align: center;
+            background: rgba(174, 0, 255, 0.4);
+            border-radius: 5px;
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        input {
+            text-align: center;
+            width: 75%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Accessing Ethereum using Web3.js</h1>
+    <br /><br /><br />
+    <!-- Define an file-type input tag with a certain "id"-->
+    <section>
+        <div class="fields">
+          <h2>Task 1</h2>
+          <input type="file" name="" class="input" id="inputFile1" />
+        </div>
+        <div class="fields">
+          <h2>Task 2</h2>
+          <input type="file" name="" class="input" id="inputFile2" />
+        </div>
+        <div class="fields">
+          <h2>Task 3</h2>
+          <input type="file" name="" class="input" id="inputFile3" />
+        </div>
+        <div class="fields">
+          <h2>Task 4</h2>
+          <input type="file" name="" class="input" id="inputFile4" />
+        </div>
+      </section>
+    <br /><br /><br />
+    <div id="block-container">
+        <!-- Import script.js from /scripts -->
+        <script src="../scripts/script.js"></script>
+    </div>
+</body>
+
+</html>
