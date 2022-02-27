@@ -7,7 +7,7 @@ document.getElementById("inputFile1").addEventListener("change", function () {
     let json = JSON.parse(file.result);
     // In the for-in loop, create an entry element for HTML rendering : entry
     var heading = document.createElement("h1");
-    heading.innerHTML = "Block Info";
+    heading.innerHTML = "Blockchain data of Block number 69420";
     container.appendChild(heading);
     for (var key in json) {
       var entry = document.createElement("p");
@@ -50,8 +50,8 @@ document.getElementById("inputFile3").addEventListener("change", function () {
   file.onload = () => {
     let json = JSON.parse(file.result);
     // In the for-in loop, create an entry element for HTML rendering : entry
-    var heading = document.createElement("h2");
-    heading.innerHTML = "Latest Block Transaction Count";
+    var heading = document.createElement("h1");
+    heading.innerHTML = "Latest ETH Block Transaction Count";
     container.appendChild(heading);
     var entry = document.createElement("p");
     entry.innerHTML = json;
@@ -70,7 +70,7 @@ document.getElementById("inputFile4").addEventListener("change", function () {
   file.onload = () => {
     let json = JSON.parse(file.result);
     // In the for-in loop, create an entry element for HTML rendering : entry
-    var heading = document.createElement("h2");
+    var heading = document.createElement("h1");
     heading.innerHTML = "Current Gas Price:";
     container.appendChild(heading);
     var entry = document.createElement("p");
