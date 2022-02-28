@@ -42,7 +42,7 @@ web3.eth.getBlockTransactionCount("latest").then((res) => {
 // Task 4
 web3.eth.getGasPrice().then((res) => {
     const currentDate = new Date();
-    let timestamp = currentDate.getTime();
+    let timestamp = currentDate.toLocaleTimeString();
     let data = JSON.stringify([res, timestamp]);
     // In JavaScript, a time stamp is the number of milliseconds that have passed since January 1, 1970.
     fs.writeFile('../AbhikalpArya/Data/data4.json', data, function(e) {
